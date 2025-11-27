@@ -1,4 +1,4 @@
-*{
+﻿*{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
@@ -69,4 +69,52 @@ button:active {
 }
 ul {
     margin-bottom: 0;
+}
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 20px 80px;
+    }
+}
+
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 20px;
+        flex-wrap: wrap;
+    }
+
+    .left-menu {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .right-menu {
+        order: 2;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+}
+
+/* Extra small mobile (≤ 480px) */
+@media (max-width: 480px) {
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .left-menu {
+        justify-content: center;
+    }
+
+    .right-menu {
+        gap: 10px;
+    }
+
+    button {
+        padding: 6px 12px;
+    }
 }
