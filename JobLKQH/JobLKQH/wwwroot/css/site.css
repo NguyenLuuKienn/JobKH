@@ -118,3 +118,10 @@ ul {
         padding: 6px 12px;
     }
 }
+.btn-link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.table-footer {
+    width: 100%;
+}
