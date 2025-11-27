@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CED340D8-DD48-48B1-B3D4-DC96E9944E01}|JobLKQH\\JobLKQH.csproj|c:\\users\\admin\\desktop\\lab\\asp.net core\\imt trainning\\joblkqh\\joblkqh\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CED340D8-DD48-48B1-B3D4-DC96E9944E01}|JobLKQH\\JobLKQH.csproj|solutionrelative:joblkqh\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED340D8-DD48-48B1-B3D4-DC96E9944E01}|JobLKQH\\JobLKQH.csproj|c:\\users\\admin\\desktop\\lab\\asp.net core\\imt trainning\\joblkqh\\joblkqh\\views\\shared\\_layoutindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CED340D8-DD48-48B1-B3D4-DC96E9944E01}|JobLKQH\\JobLKQH.csproj|solutionrelative:joblkqh\\views\\shared\\_layoutindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED340D8-DD48-48B1-B3D4-DC96E9944E01}|JobLKQH\\JobLKQH.csproj|c:\\users\\admin\\desktop\\lab\\asp.net core\\imt trainning\\joblkqh\\joblkqh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CED340D8-DD48-48B1-B3D4-DC96E9944E01}|JobLKQH\\JobLKQH.csproj|solutionrelative:joblkqh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED340D8-DD48-48B1-B3D4-DC96E9944E01}|JobLKQH\\JobLKQH.csproj|c:\\users\\admin\\desktop\\lab\\asp.net core\\imt trainning\\joblkqh\\joblkqh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED340D8-DD48-48B1-B3D4-DC96E9944E01}|JobLKQH\\JobLKQH.csproj|solutionrelative:joblkqh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED340D8-DD48-48B1-B3D4-DC96E9944E01}|JobLKQH\\JobLKQH.csproj|c:\\users\\admin\\desktop\\lab\\asp.net core\\imt trainning\\joblkqh\\joblkqh\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CED340D8-DD48-48B1-B3D4-DC96E9944E01}|JobLKQH\\JobLKQH.csproj|solutionrelative:joblkqh\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,8 +53,69 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "JobLKQH\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "JobLKQH\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-27T07:21:18.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LayoutIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\Views\\Shared\\_LayoutIndex.cshtml",
+              "RelativeDocumentMoniker": "JobLKQH\\Views\\Shared\\_LayoutIndex.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\Views\\Shared\\_LayoutIndex.cshtml",
+              "RelativeToolTip": "JobLKQH\\Views\\Shared\\_LayoutIndex.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T07:05:43.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\Program.cs",
+              "RelativeDocumentMoniker": "JobLKQH\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\Program.cs",
+              "RelativeToolTip": "JobLKQH\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T07:13:20.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "JobLKQH\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "JobLKQH\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T07:05:52.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "JobLKQH\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "JobLKQH\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T06:41:39.908Z",
+              "EditorCaption": ""
             }
           ]
         }
