@@ -1,1 +1,7 @@
-JobLKQH/.vs/JobLKQH/FileContentIndex/db348824-b967-4127-b888-f6caa0c07995.vsidx
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.vs/
+.vscode/
