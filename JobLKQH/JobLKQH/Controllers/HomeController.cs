@@ -30,6 +30,10 @@ namespace JobLKQH.Controllers
         {
             return View();
         }
+        public IActionResult SearchWork()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
