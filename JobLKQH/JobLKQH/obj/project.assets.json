@@ -102,7 +102,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/8.0.22": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/8.0.20": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.0",
@@ -647,10 +647,10 @@
         "microsoft.aspnetcore.mvc.razor.extensions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/8.0.22": {
-      "sha512": "wF+7bbXqxyE6o2Zb3I68ixwDwbtT23zPYCqVe/Kwr5APzwP415++zoBETjNk5+f9GUp8CaNFL5Uh077tPJmJPg==",
+    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/8.0.20": {
+      "sha512": "Nhj3of2Z8LYErtV1riNYSu1tj2Zdvr7FkCs3rYgzemM3iEjsibGYwEsIeMW12/xdpoZ+/RufXR5GqeERhBQ/VA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/8.0.22",
+      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/8.0.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -660,7 +660,7 @@
         "buildTransitive/net8.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets",
         "lib/net8.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll",
         "lib/net8.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.xml",
-        "microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.22.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.20.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razor.runtimecompilation.nuspec"
       ]
     },
@@ -1377,29 +1377,29 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 8.0.22",
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 8.0.20",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.22.1",
       "Microsoft.VisualStudio.Web.BrowserLink >= 2.2.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "C:\\Users\\tranq\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\JobLKQH.csproj",
+      "projectUniqueName": "D:\\JobKH\\JobLKQH\\JobLKQH\\JobLKQH.csproj",
       "projectName": "JobLKQH",
-      "projectPath": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\JobLKQH.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Desktop\\LAB\\ASP.NET CORE\\IMT Trainning\\JobLKQH\\JobLKQH\\obj\\",
+      "projectPath": "D:\\JobKH\\JobLKQH\\JobLKQH\\JobLKQH.csproj",
+      "packagesPath": "C:\\Users\\tranq\\.nuget\\packages\\",
+      "outputPath": "D:\\JobKH\\JobLKQH\\JobLKQH\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tranq\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1426,7 +1426,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -1434,7 +1434,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
-            "version": "[8.0.22, )"
+            "version": "[8.0.20, )"
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
@@ -1464,7 +1464,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
