@@ -9,11 +9,14 @@ body {
     background: #fafafa;
     line-height: 1.6;
 }
-.navbar {
-    padding: 25px 300px;
+.navjob {
+    padding: 20px 300px;
     background-color: aliceblue;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 60;
 }
 .left-menu li {
     text-decoration: none;
@@ -39,40 +42,73 @@ body {
     color: #374151;
     font-weight: 500;
 }
-button {
-    padding: 10px 25px;
-    border-radius: 50px;
-    cursor: pointer;
+.btn-auth {
+    --primary-color: #645bff;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
     border: 0;
-    background-color: white;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
+    border-radius: 50px;
+    color: var(--secondary-color);
+    padding: 0.7em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
     font-size: 14px;
-    transition: all 0.5s ease;
+    text-transform: uppercase;
 }
 
-button:hover {
-    letter-spacing: 3px;
-    background-color: hsl(261deg 80% 48%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+.btn-auth .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-button:active {
-    letter-spacing: 3px;
-    background-color: hsl(261deg 80% 48%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
-    transform: translateY(10px);
-    transition: 100ms;
+.btn-auth .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
 }
+
+.btn-auth .arrow::before {
+    content: "";
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    top: -3px;
+    right: 3px;
+    padding: 3px;
+    transform: rotate(-45deg);
+    transition: 0.2s;
+}
+
+.btn-auth:hover {
+    background-color: var(--hover-color);
+}
+
+.btn-auth:hover .arrow {
+    background: var(--secondary-color);
+}
+
+.btn-auth:hover .arrow:before {
+    right: 0;
+}
+
 ul {
     margin-bottom: 0;
 }
 /* Tablet */
 @media (max-width: 992px) {
-    .navbar {
+    .navjob {
         padding: 20px 50px;
         justify-content: space-between;
     }
@@ -84,7 +120,7 @@ ul {
 
 /* Mobile */
 @media (max-width: 768px) {
-    .navbar {
+    .navjob {
         padding: 15px 20px;
         flex-wrap: wrap;
     }
@@ -109,7 +145,7 @@ ul {
 
 /* Small mobile */
 @media (max-width: 480px) {
-    .navbar {
+    .navjob {
         padding: 12px 15px;
         flex-direction: column;
         gap: 10px;
