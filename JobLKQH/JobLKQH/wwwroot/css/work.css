@@ -1,0 +1,128 @@
+﻿.header-search-work {
+    background-color: rgb(255, 255, 255, 1);
+    border-bottom-width: 1px;
+    z-index: 40;
+    position: sticky;
+    top: 95px;    
+
+}
+.content-search-work {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-work {
+    display: flex;
+    gap: 1rem;
+}
+.search-work-child {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(249, 250, 251, 1);
+    border-color: rgb(229, 231, 235, 1);
+    border-width: 1px;
+    border-radius: 0.5rem;
+    gap: 0.75rem;
+    align-items: center;
+    display:flex;
+    flex: 1 1 0%;
+}
+.input-search {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    color: rgb(55, 65, 81, 1);
+    background-color: transparent;
+    flex: 1 1 0%;
+    border:none;
+}
+button-search-work {
+    color: rgb(55, 65, 81, 1));
+    font-weight: 500;
+    background-color: rgb(243, 244, 246, 1));
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 0.5rem;
+    gap: 0.5rem;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    text-transform: none;
+}
+.content-work {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-table-work {
+    display: flex;
+    gap: 2rem;
+}
+.category-work {
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255, 1);
+    overflow-y: auto;
+    height: 100%;
+    border-width: 1px;
+    border-color: #000f
+}
+content-category-work {
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255, 1);
+    overflow-y: auto;
+    height: 100%;
+}
+.h-profession {
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    color: rgb(17, 24, 39, 1);
+    font-size: 16px;
+}
+.filter-work {
+    align-items: center;
+    display: flex;
+    margin-bottom: .7rem;
+}
+.h-filter-work {
+    color: rgb(17, 24, 39, 1);
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.delete-all-work {
+    text-transform: none;
+    font-weight: 500;
+    color: rgb(37, 99, 235, 1);
+    cursor: pointer;
+}
+.label-list-work {
+    gap: 0.5rem;
+    align-content: center;
+    cursor: pointer;
+    display: flex;
+    column-gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+.checkbox-work {
+    color: rgb(37, 99, 235, 1);
+    border-color: rgb(209, 213, 219, 1);
+    border-radius: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+}
+.works-list {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(55, 65, 81, 1);
+}

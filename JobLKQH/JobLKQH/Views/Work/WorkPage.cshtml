@@ -1,14 +1,55 @@
 ﻿@{
     ViewData["Title"] = "SearchWord Page";
 }
-<search>
-    <form>
-        <input name="fsrch" id="fsrch" placeholder="Tìm kiếm việc làm của bạn ngay">
-    </form>
-</search>
-<h1>Danh sách công việc đang cần ứng tuyển</h1>
-<menu>
-    <li>Designer</li>
-    <li>Tester</li>
-    <li>IT help desk</li>
-</menu>
+
+<div class="header-search-work">
+    <div class="content-search-work">
+        <div class="search-work">
+            <div class="search-work-child">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search w-5 h-5 text-gray-400"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+                <input type="text" placeholder="Tìm kiếm công việc..." class="input-search"/>
+            </div>
+            <button class="btn-auth" style="display:none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-filter w-5 h-5"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="content-work">
+    <div class="content-table-work">
+        <aside class="category-work">
+            <div class="content-category-work">
+                <div class="filter-work">
+                    <h3 class="h-filter-work">Bộ lọc</h3>
+                    
+                </div>
+                <div class="content-filter-work">
+                    <h4 class="h-profession">Ngành nghề</h4>
+                    <div class="list-filter-work">
+                        <label class="label-list-work">
+                            <input type="checkbox" class="checkbox-work" />
+                            <span class="works-list">Công nghệ thông tin</span>
+                        </label>
+                        <label class="label-list-work">
+                            <input type="checkbox" class="checkbox-work" />
+                            <span class="works-list">Kinh doanh</span>
+                        </label>
+                        <label class="label-list-work">
+                            <input type="checkbox" class="checkbox-work" />
+                            <span class="works-list">Marketing</span>
+                        </label>
+                        <label class="label-list-work">
+                            <input type="checkbox" class="checkbox-work" />
+                            <span class="works-list">Kế toán</span>
+                        </label>
+                        <label class="label-list-work">
+                            <input type="checkbox" class="checkbox-work" />
+                            <span class="works-list">Nhân sự</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+        </aside>
+    </div>
+</div>
