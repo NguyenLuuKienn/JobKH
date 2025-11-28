@@ -1,0 +1,11 @@
+﻿.justify-center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.mb-8 {
+    margin-bottom: 2rem;
+}

@@ -1,20 +1,58 @@
 ﻿@{
     ViewData["Title"] = "Login Page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Hello My Register</h1>
-</div>
-<form action="/action_page.php">
-    <div style="display: flex; flex-direction: column; align-items: center;">
-        <label for="name">Nhập Email</label>
-        <input type="text" id="name">
-        <label for="name">Mật khẩu:</label>
-        <input type="text" id="name">
-    </div>
-    <div style="display:flex; justify-content:center; align-items:center; height:auto;">
-        <button>Đăng kí</button>
-    </div>
-
-</form>
+<link href="~/css/register.css" rel="stylesheet" />
+<main class="flex-1">
+    <div class="min-h-[calc(100vh-4rem)] flex items-center justify-center bg-gradient-to-br from-blue-50 to-slate-100 py-12 px-4">
+        <div class="max-w-md w-full"><div class="bg-white rounded-2xl shadow-xl p-8">
+            <div class="flex justify-center mb-8">
+                <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase w-8 h-8 text-white">
+                        <rect width="20" height="14" x="2" y="7" rx="2" ry="2">
+                            </rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16">
+                                </path>
+                                </svg>
+                                </div>
+                                </div>
+                                <h2 class="text-3xl font-bold text-center text-gray-900 mb-2">Đăng ký</h2>
+                                <p class="text-center text-gray-600 mb-8">Tạo tài khoản để bắt đầu</p>
+                                <form class="space-y-6">
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-3">Bạn là</label>
+                                        <div class="grid grid-cols-2 gap-3">
+                                            <button type="button" class="flex flex-col items-center gap-2 p-4 rounded-lg border-2 transition border-blue-600 bg-blue-50">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user w-6 h-6 text-blue-600">
+                                                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2">
+                                                        </path><circle cx="12" cy="7" r="4"></circle></svg>
+                                                        <span class="text-sm font-medium text-blue-600">Người tìm việc</span></button>
+                                                        <button type="button" class="flex flex-col items-center gap-2 p-4 rounded-lg border-2 transition border-gray-200 hover:border-gray-300">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building2 w-6 h-6 text-gray-400">
+                                                                <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2">
+                                                                    </path>
+                                                                    <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2">
+                                                                        </path>
+                                                                        <path d="M10 6h4"></path>
+                                                                        <path d="M10 10h4"></path>
+                                                                        <path d="M10 14h4"></path>
+                                                                        <path d="M10 18h4"></path>
+                                                                        </svg><span class="text-sm font-medium text-gray-600">Nhà tuyển dụng</span>
+                                                                        </button></div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <label class="block text-sm font-medium text-gray-700 mb-2">Họ và tên</label>
+                                                                            <input type="text" required="" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition" placeholder="Nguyễn Văn A" value="">
+                                                                            </div>
+                                                                            <div>
+                                                                                <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                                                                                <input type="email" required="" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition" placeholder="you@example.com" value="">
+                                                                            </div>
+                                                                            <div>
+                                                                                <label class="block text-sm font-medium text-gray-700 mb-2">Mật khẩu</label>
+                                                                                <input type="password" required="" minlength="6" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition" placeholder="••••••••" value="">
+                                                                                <p class="text-xs text-gray-500 mt-1">Tối thiểu 6 ký tự</p></div><button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition shadow-lg shadow-blue-600/30 disabled:opacity-50">Đăng ký</button>
+                                                                            </form>
+                                                                            <div class="mt-6 text-center">
+                                                                                <p class="text-sm text-gray-600">Đã có tài khoản? <button class="text-blue-600 hover:text-blue-700 font-semibold">Đăng nhập</button>
+                                                                                    </p>
+                                                                                    </div></div></div></div></main>
 
